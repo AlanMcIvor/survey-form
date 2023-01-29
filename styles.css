@@ -1,0 +1,79 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #e5e5e8;
+    background-color: #2b2a48;
+    font-family: "Tahoma", sans-serif
+  }
+  
+  #title ,p{
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  fieldset{
+    border: none;
+    border-bottom: 2px solid #171557;;
+    }
+  
+    label{
+      font-size: 1.25rem;
+    }
+  
+  #survey-form{
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  input[type="text"], input[type="number"], input[type="email"], #dropdown{
+    display: block;
+    margin: 0.5em 0;
+    width: 100%;
+    padding: 0.6em;
+    border-radius: 5px;
+    border: none;
+    background-color: #171557;
+    font-size: 1.125rem;
+    color: #fff;
+  }
+  
+  select{
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .radio-container, .more-container{
+    padding: 0.2rem 0;
+  }
+  
+  #more-of{
+    display: block;
+  }
+  textarea{
+    display: block;
+    margin: 0.2rem 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]{
+    width: 100%;
+    display: block;
+    padding: 1rem 1.2rem;
+    margin: 0.5rem;
+    background-color: #37af65; 
+    color: white;
+    border: none;
+    font-size: 1.125rem;
+    border-radius: 5px;
+    transition: 300ms ease-n-out;
+  }
+  
+  input[type="submit"]:hover{
+    opacity: 0.7;
+  }
+  
+  
